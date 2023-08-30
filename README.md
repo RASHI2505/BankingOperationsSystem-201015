@@ -8,3 +8,26 @@ Amount).
 - Fund transfers between accounts.
 - Balance Inquiry.
 
+## Class Diagram: 
++---------------------+     +-----------------------------------+
+|      BankAccount    |     |         Bank                      |
++---------------------+     +-----------------------------------+
+| - account_number    |     | - accounts: list                  |
+| - account_holder    |     |                                   |
+| - balance           |     | + create_savings_account()        |
+|                     |     | + create_current_account()        |
+| + deposit(amount)   |     | + get_account_by_number()         |
+| + withdraw(amount)  |     | + fund_transfer()                 |
+| + get_balance()     |     | + get_all_customers()             |
+| + get_details()     |     |                                   |
++---------------------+     +-----------------------------------+
+       ^    ^                              ^
+       |    |                              |
+       |    |                              |
++----------------+              +---------------------+
+| SavingsAccount |              |   CurrentAccount    |
++----------------+              +---------------------+
+| -interest_rate |              | - overdraft_limit   |
+| +add_interest()|              | + withdraw(amount)  |
++----------------+              +---------------------+
+
