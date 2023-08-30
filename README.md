@@ -21,4 +21,5 @@ The project includes the following options:
 6. Fund Transfer
 7. List All Customers
 8. Exit
-It helped me in learning the basic class hierarchy, control structure and implementation of OOPs Concepts in real world.
+
+The development of Online Banking System helped me to learn and grasp the basic class hierarchy, control structure and implementation of OOPs Concepts in real world.
