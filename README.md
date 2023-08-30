@@ -22,4 +22,4 @@ The project includes the following options:
 7. List All Customers
 8. Exit
 
-The development of Online Banking System helped me to learn and grasp the basic class hierarchy, control structure and implementation of OOPs Concepts in real world.
+The development of this Online Banking System basically helps to learn and grasp the basic class hierarchy, control structure and implementation of OOPs Concepts in real world using Python.
