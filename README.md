@@ -9,6 +9,8 @@ Amount).
 - Balance Inquiry.
 
 ## Class Diagram: 
+<img width="338" alt="image" src="https://github.com/RASHI2505/BankingOperationsSystem-201015/assets/64950686/4f3de333-e57c-410b-bad8-40d7abc96fd8">
+
 +---------------------+     +-----------------------------------+
 |      BankAccount    |     |         Bank                      |
 +---------------------+     +-----------------------------------+
